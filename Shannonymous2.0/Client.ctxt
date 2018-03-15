@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Client
+comment0.text=\n\ The\ Client\ that\ can\ be\ run\ both\ as\ a\ console\ or\ a\ GUI\n
+comment1.params=server\ port\ username
+comment1.target=Client(java.lang.String,\ int,\ java.lang.String)
+comment1.text=\n\ \ Constructor\ called\ by\ console\ mode\n\ \ server\:\ the\ server\ address\n\ \ port\:\ the\ port\ number\n\ \ username\:\ the\ username\n
+comment2.params=
+comment2.target=boolean\ start()
+comment2.text=\n\ To\ start\ the\ dialog\n
+comment3.params=msg
+comment3.target=void\ display(java.lang.String)
+comment3.text=\n\ To\ send\ a\ message\ to\ the\ console\ or\ the\ GUI\n
+comment4.params=msg
+comment4.target=void\ sendMessage(ChatMessage)
+comment4.text=\n\ To\ send\ a\ message\ to\ the\ server\n
+comment5.params=
+comment5.target=void\ disconnect()
+comment5.text=\n\ When\ something\ goes\ wrong\n\ Close\ the\ Input/Output\ streams\ and\ disconnect\ not\ much\ to\ do\ in\ the\ catch\ clause\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ To\ start\ the\ Client\ in\ console\ mode\ use\ one\ of\ the\ following\ command\n\ >\ java\ Client\n\ >\ java\ Client\ username\n\ >\ java\ Client\ username\ portNumber\n\ >\ java\ Client\ username\ portNumber\ serverAddress\n\ at\ the\ console\ prompt\n\ If\ the\ portNumber\ is\ not\ specified\ 1500\ is\ used\n\ If\ the\ serverAddress\ is\ not\ specified\ "localHost"\ is\ used\n\ If\ the\ username\ is\ not\ specified\ "Anonymous"\ is\ used\n\ >\ java\ Client\ \n\ is\ equivalent\ to\n\ >\ java\ Client\ Anonymous\ 1500\ localhost\ \n\ are\ eqquivalent\n\ \n\ In\ console\ mode,\ if\ an\ error\ occurs\ the\ program\ simply\ stops\n\ when\ a\ GUI\ id\ used,\ the\ GUI\ is\ informed\ of\ the\ disconnection\n
+numComments=7

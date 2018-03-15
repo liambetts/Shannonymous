@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=ClientGUI
+comment0.text=\n\ The\ Client\ with\ its\ GUI\n
+comment1.params=host\ port
+comment1.target=ClientGUI(java.lang.String,\ int)
+comment2.params=str
+comment2.target=void\ append(java.lang.String)
+comment3.params=
+comment3.target=void\ connectionFailed()
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\n\ Button\ or\ JTextField\ clicked\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
